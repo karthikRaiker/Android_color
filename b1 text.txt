@@ -23,7 +23,4 @@ d <- data.frame(word = names(v),freq=v)
 head(d,10)
 wordcloud(d$word, freq=d$freq, min.freq=1, max.words=70, random.order=FALSE, rot.per=0.30, color=brewer.pal(8,"Dark2"))
 
-//hello world
-
-Thika mulla
 	
